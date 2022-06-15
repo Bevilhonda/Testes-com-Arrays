@@ -5,7 +5,7 @@ public class Casa {
     public static void main(String[] args) {
 
         // Encontrar quantas veses a String casa aparece na String frase
-        // fazer um print toda vez que aparece um carectere.
+        // fazer um print toda vez que aparece um caractere.
         // fazer um print toda vez que aparecer uma palavra
 
         String palavra = "casa";
@@ -29,7 +29,7 @@ public class Casa {
 
             }
             else {
-                System.out.println("Achei um carectere que é     " + frase.charAt(i));
+                System.out.println("Achei um caractere que é     " + frase.charAt(i));
                 palavra_temporaria = palavra_temporaria.concat(String.valueOf(frase.charAt(i)));
             }
         }
